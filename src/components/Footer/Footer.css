@@ -1,0 +1,25 @@
+footer{
+  padding: 50px;
+  background: url('../../assets/rectangle_footer.svg') repeat;
+  background-size: cover;
+}
+
+footer .content-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .content-footer ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+@media (max-width: 600px){
+  footer .content-footer{
+    flex-direction: column;
+    gap: 50px;
+  }
+}
